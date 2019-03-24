@@ -1,0 +1,94 @@
+.wide-container {
+    position: relative;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+header {
+    padding-top: 20px;
+    
+    z-index: 2;
+
+    top: 0px;
+    position: relative;
+    background: black;
+}
+header h1 {
+    margin-left: 25px;
+    color: red;
+    font-size: 3.2rem;
+}
+
+nav.nav {
+    padding-left: 50px;
+}
+
+nav.nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    float: left;
+}
+
+nav.second-nav {
+    padding-right: 50px;
+}
+nav.second-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    float: right;
+}
+
+.main {
+    min-height: 1000px;
+    width: 100%;
+    background-color: green;
+    z-index: 0;
+
+    background: url(../images/motleycrue.jpg) no-repeat center center; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.main h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.0rem;
+    
+    margin-bottom: 0;
+}
+
+.main h2 span {
+    font-weight: 700;
+}
+
+.main h3 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 19.0rem;
+    font-family: 'Bangers', cursive;
+
+    
+    margin-bottom: 0;
+}
+
+.main button {
+    color: white;
+
+}
+
+.main p {
+    color: white;
+    font-size:2.4rem;
+    font-weight: 400;
+}
+
+.main-row {
+    margin: 150px 0;
+}
